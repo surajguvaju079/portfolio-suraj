@@ -1,0 +1,46 @@
+{
+  "name": "Suraj Guvaju – Full-Stack Engineer",
+  "short_name": "Suraj Guvaju",
+  "description": "Portfolio of Suraj Guvaju, Full-Stack Engineer from Nepal. React, Next.js, Node.js, TypeScript, AWS.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#6366f1",
+  "lang": "en",
+  "dir": "ltr",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "categories": ["portfolio", "technology", "developer"],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-desktop.png",
+      "sizes": "1280x800",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Suraj Guvaju Portfolio – Desktop"
+    },
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Suraj Guvaju Portfolio – Mobile"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
