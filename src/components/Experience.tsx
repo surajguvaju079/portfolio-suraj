@@ -9,13 +9,12 @@ const experiences = [
   {
     id: 1,
     role: "Project Lead / Full-Stack Engineer",
-    company: "TechGiant Inc.",
-    location: "San Francisco, CA",
+    company: "Geek Tech Solutions",
+    location: "Lalitpur, Nepal",
     period: "2025 - Present",
     description: "Leading development of enterprise-scale applications.",
     achievements: [
-      "Reduced system latency by 60%",
-      "Led offline synchronization efforts, 80% faster data synchronization",
+      "Led offline synchronization architecture",
       "Mentoring 5 interns to full-time roles",
     ],
     current: true,
@@ -25,8 +24,8 @@ const experiences = [
     id: 2,
     role: " Apprentice Full-Stack Engineer",
     company: "Geek Tech Solutions",
-    location: "New York, NY",
-    period: "2021 - 2023",
+    location: "Lalitpur, Nepal",
+    period: "2025",
     description:
       "Built and scaled multiple SaaS products from concept to launch.",
     achievements: [
@@ -41,7 +40,7 @@ const experiences = [
     role: "React Native Intern",
     company: "Yojana Solutions",
     location: "Remote",
-    period: "2025",
+    period: "2024-2025",
     description:
       "Early engineer at a fast-growing startup building the core product.",
     achievements: ["Built MVP ", "Established coding standards"],
