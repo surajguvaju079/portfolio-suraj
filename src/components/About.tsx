@@ -15,23 +15,36 @@ import {
 const skills = [
   {
     category: "Frontend",
-    items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    items: [
+      "React",
+      "Next.js",
+      "React Native",
+      "Firebase",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+    ],
     color: "from-blue-500 to-cyan-500",
   },
   {
     category: "Backend",
-    items: ["Node.js", "Python", "Go", "PostgreSQL", "MongoDB"],
+    items: ["Node.js", "Python", "MySQL", "SQLite", "PostgreSQL", "MongoDB"],
     color: "from-green-500 to-emerald-500",
   },
   {
     category: "Cloud & DevOps",
-    items: ["AWS", "Docker", "Kubernetes", "CI/CD", "Terraform"],
+    items: ["Docker", "Github Actions", "CI/CD"],
     color: "from-orange-500 to-amber-500",
   },
   {
     category: "Tools",
-    items: ["Git", "Figma", "VS Code", "Linux", "GraphQL"],
+    items: ["Git", "Figma", "VS Code", "Linux", "VIM", "Postman", "Apidogs"],
     color: "from-purple-500 to-pink-500",
+  },
+  {
+    category: "AI",
+    items: ["Machine Learning"],
+    color: "from-pink-500 to-rose-500",
   },
 ];
 
@@ -244,7 +257,7 @@ export default function About() {
                     Currently
                   </h4>
                   <p className="text-gray-400 text-sm sm:text-base">
-                    Senior Full-Stack Engineer
+                    Full-Stack Engineer
                   </p>
                 </div>
                 <div className="sm:text-right">

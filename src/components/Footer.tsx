@@ -20,25 +20,20 @@ import Link from "next/link";
 const socialLinks = [
   {
     icon: Github,
-    href: "https://github.com",
+    href: "https://github.com/surajguvaju079",
     label: "GitHub",
     color: "hover:bg-gray-800",
   },
   {
     icon: Linkedin,
-    href: "https://linkedin.com",
+    href: "https://www.linkedin.com/in/surajguvaju",
     label: "LinkedIn",
     color: "hover:bg-blue-600",
   },
-  {
-    icon: Twitter,
-    href: "https://twitter.com",
-    label: "Twitter",
-    color: "hover:bg-sky-500",
-  },
+
   {
     icon: Mail,
-    href: "mailto:hello@example.com",
+    href: "mailto:surajguvaju.programmer@gmail.com",
     label: "Email",
     color: "hover:bg-red-500",
   },
@@ -54,8 +49,10 @@ const quickLinks = [
 const services = [
   "Web Development",
   "Mobile Apps",
+  "Desktop Software",
   "UI/UX Design",
   "Consulting",
+  "Software Architecture",
 ];
 
 export default function Footer() {
