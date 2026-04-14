@@ -232,7 +232,7 @@ export default function Contact() {
 
               <div className="space-y-4 sm:space-y-5">
                 <motion.a
-                  href="mailto:hello@example.com"
+                  href="mailto:surajguvaju.programmer@gmail.com"
                   whileHover={{ scale: 1.02, x: 5 }}
                   className="flex items-center gap-4 sm:gap-5 p-4 sm:p-5 rounded-xl bg-white/5 hover:bg-white/10 transition-colors group"
                 >
@@ -244,12 +244,12 @@ export default function Contact() {
                       Email
                     </div>
                     <div className="text-white text-sm sm:text-base lg:text-lg group-hover:text-indigo-400 transition-colors truncate">
-                      hello@example.com
+                      surajguvaju.programmer@gmail.com
                     </div>
                   </div>
                 </motion.a>
 
-                <motion.a
+                {/* <motion.a
                   href="tel:+1234567890"
                   whileHover={{ scale: 1.02, x: 5 }}
                   className="flex items-center gap-4 sm:gap-5 p-4 sm:p-5 rounded-xl bg-white/5 hover:bg-white/10 transition-colors group"
@@ -265,7 +265,7 @@ export default function Contact() {
                       +1 (234) 567-890
                     </div>
                   </div>
-                </motion.a>
+                </motion.a> */}
 
                 <motion.div
                   whileHover={{ scale: 1.02, x: 5 }}
@@ -279,7 +279,7 @@ export default function Contact() {
                       Location
                     </div>
                     <div className="text-white text-sm sm:text-base lg:text-lg">
-                      San Francisco, CA (Remote)
+                      Kathmandu, Nepal (Remote)
                     </div>
                   </div>
                 </motion.div>
