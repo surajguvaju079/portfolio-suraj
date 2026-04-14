@@ -8,30 +8,28 @@ import { Calendar, MapPin, Briefcase, ChevronRight } from "lucide-react";
 const experiences = [
   {
     id: 1,
-    role: "Senior Full-Stack Engineer",
+    role: "Project Lead / Full-Stack Engineer",
     company: "TechGiant Inc.",
     location: "San Francisco, CA",
-    period: "2023 - Present",
-    description:
-      "Leading development of enterprise-scale applications serving millions of users.",
+    period: "2025 - Present",
+    description: "Leading development of enterprise-scale applications.",
     achievements: [
       "Reduced system latency by 60%",
-      "Led Kubernetes migration, 80% faster deployments",
-      "Mentored 5 engineers to senior positions",
+      "Led offline synchronization efforts, 80% faster data synchronization",
+      "Mentoring 5 interns to full-time roles",
     ],
     current: true,
     color: "from-emerald-500 to-green-500",
   },
   {
     id: 2,
-    role: "Full-Stack Developer",
-    company: "InnovateTech",
+    role: " Apprentice Full-Stack Engineer",
+    company: "Geek Tech Solutions",
     location: "New York, NY",
     period: "2021 - 2023",
     description:
       "Built and scaled multiple SaaS products from concept to launch.",
     achievements: [
-      "Launched 3 products with $2M+ ARR",
       "Built real-time features for 50K+ users",
       "CI/CD pipeline reducing bugs by 40%",
     ],
@@ -40,17 +38,13 @@ const experiences = [
   },
   {
     id: 3,
-    role: "Software Engineer",
-    company: "StartupXYZ",
+    role: "React Native Intern",
+    company: "Yojana Solutions",
     location: "Remote",
-    period: "2020 - 2021",
+    period: "2025",
     description:
       "Early engineer at a fast-growing startup building the core product.",
-    achievements: [
-      "Built MVP securing $5M Series A",
-      "Grew users from 0 to 10,000 in 6 months",
-      "Established coding standards",
-    ],
+    achievements: ["Built MVP ", "Established coding standards"],
     current: false,
     color: "from-indigo-500 to-blue-500",
   },
