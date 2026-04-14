@@ -8,24 +8,24 @@ import { Quote } from "lucide-react";
 const testimonials = [
   {
     id: 1,
-    name: "Sarah Chen",
-    role: "CTO, TechVentures",
+    name: "Suvash Aryal",
+    role: "CEO, Geek Tech Solutions",
     content:
       "Working with Suraj was transformative for our engineering team. His ability to architect scalable solutions while maintaining code quality is unmatched.",
-    avatar: "SC",
+    avatar: "SA",
   },
   {
     id: 2,
-    name: "Michael Roberts",
-    role: "Founder, StartupX",
+    name: "Prajwal Pokharel",
+    role: "CTO, Yojana Solutions",
     content:
       "I've worked with many engineers, but Suraj stands apart. He thinks strategically about product, UX, and business impact. Our MVP was built in record time.",
-    avatar: "MR",
+    avatar: "PP",
   },
   {
     id: 3,
-    name: "Emily Watson",
-    role: "VP Engineering, FinCorp",
+    name: "Sundar Ban",
+    role: "CTO, Geek Tech Solutions",
     content:
       "Suraj's expertise in both frontend and backend is rare. He rebuilt our legacy system into a modern platform that improved performance by 300%.",
     avatar: "EW",
@@ -97,7 +97,7 @@ export default function Testimonials() {
         </div>
 
         {/* Logos Section */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6, delay: 0.6 }}
@@ -122,7 +122,7 @@ export default function Testimonials() {
               ),
             )}
           </div>
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   );
