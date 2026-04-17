@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     template: "%s | Suraj Guvaju",
   },
   description:
-    "Suraj Guvaju is a Full-Stack Software Engineer from Nepal with 2+ years of experience building scalable web applications using React, Next.js, Node.js, TypeScript, AWS, and more. Available for remote work worldwide.",
+    "Suraj Guvaju is a Full-Stack Software Engineer from Nepal with 5+ years of experience building scalable web applications using React, Next.js, Node.js, TypeScript, AWS, and more. Available for remote work worldwide.",
   keywords: [
     "Suraj Guvaju",
     "Full-Stack Developer Nepal",
