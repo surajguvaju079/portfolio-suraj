@@ -8,20 +8,31 @@ import { Calendar, MapPin, Briefcase, ChevronRight } from "lucide-react";
 const experiences = [
   {
     id: 1,
-    role: "Project Lead / Full-Stack Engineer",
-    company: "Geek Tech Solutions",
-    location: "Lalitpur, Nepal",
-    period: "2025 - Present",
+    role: "Full-Stack Engineer",
+    company: "Team Bhariya",
+    location: "Kathmandu, Nepal",
+    period: "2026 - Present",
     description: "Leading development of enterprise-scale applications.",
-    achievements: [
-      "Led offline synchronization architecture",
-      "Mentoring 5 interns to full-time roles",
-    ],
+    achievements: ["Led offline synchronization architecture"],
     current: true,
     color: "from-emerald-500 to-green-500",
   },
   {
     id: 2,
+    role: "Project Lead / Full-Stack Engineer",
+    company: "Geek Tech Solutions",
+    location: "Lalitpur, Nepal",
+    period: "2025 - 2026",
+    description: "Leading development of enterprise-scale applications.",
+    achievements: [
+      "Led offline synchronization architecture",
+      "Mentoring 5 interns to full-time roles",
+    ],
+    current: false,
+    color: "from-orange-500 to-red-500",
+  },
+  {
+    id: 3,
     role: " Apprentice Full-Stack Engineer",
     company: "Geek Tech Solutions",
     location: "Lalitpur, Nepal",
@@ -36,7 +47,7 @@ const experiences = [
     color: "from-violet-500 to-purple-500",
   },
   {
-    id: 3,
+    id: 4,
     role: "React Native Intern",
     company: "Yojana Solutions",
     location: "Remote",
