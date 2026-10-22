@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 
 const BASE_URL = "https://surajguvaju.com.np";
 const CONTACT_EMAIL = "surajguvaju.programmer@gmail.com";
@@ -255,6 +256,20 @@ export default function GhostTagPrivacyPolicy() {
               This policy may be updated when GhostTag&apos;s implementation,
               infrastructure, or data practices change. The last-updated date
               at the top of this page indicates the current published version.
+            </p>
+          </PolicySection>
+          <PolicySection title="14. Child safety standards">
+            <p>
+              GhostTag&apos;s{" "}
+              <Link
+                className="font-medium text-indigo-300 underline decoration-indigo-400/50 underline-offset-4 hover:text-white"
+                href="/ghosttag/child-safety-standards"
+              >
+                Child Safety Standards
+              </Link>{" "}
+              explain prohibited child sexual abuse and exploitation, how to
+              report a concerning message, and the current limits of the
+              reporting and escalation process.
             </p>
           </PolicySection>
         </div>

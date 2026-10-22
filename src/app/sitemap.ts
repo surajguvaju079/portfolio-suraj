@@ -62,5 +62,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "yearly",
       priority: 0.7,
     },
+    {
+      url: `${BASE_URL}/ghosttag/child-safety-standards`,
+      lastModified: new Date("2026-10-22"),
+      changeFrequency: "yearly",
+      priority: 0.7,
+    },
   ];
 }
