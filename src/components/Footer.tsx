@@ -341,7 +341,7 @@ export default function Footer() {
             {/* Links & Scroll to top */}
             <div className="flex items-center gap-4">
               <Link
-                href="#"
+                href="/ghosttag/privacy-policy"
                 className="text-gray-500 hover:text-white text-xs sm:text-sm transition-colors"
               >
                 Privacy
