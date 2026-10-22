@@ -1,21 +1,10 @@
 import Hero from "@/components/Hero";
-import About from "@/components/About";
 import Projects from "@/components/Projects";
+import EngineeringCapabilities from "@/components/EngineeringCapabilities";
+import SelectedClientWork from "@/components/SelectedClientWork";
 import Experience from "@/components/Experience";
-import Blog from "@/components/Blog";
-import Testimonials from "@/components/Testimonials";
+import About from "@/components/About";
 import Contact from "@/components/Contact";
-
 export default function Home() {
-  return (
-    <>
-      <Hero />
-      <About />
-      <Projects />
-      <Experience />
-      <Testimonials />
-      <Blog />
-      <Contact />
-    </>
-  );
+  return <><Hero /><Projects /><EngineeringCapabilities /><SelectedClientWork /><Experience /><About /><Contact /></>;
 }

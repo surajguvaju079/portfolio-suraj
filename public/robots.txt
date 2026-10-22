@@ -1,16 +1,4 @@
-# robots.txt for https://surajguvaju.com.np
-# Generated for optimal SEO
-
 User-agent: *
 Allow: /
 
-# Block common non-content paths
-Disallow: /api/
-Disallow: /_next/
-Disallow: /static/
-
-# Crawl-delay (optional, adjust if your server needs it)
-# Crawl-delay: 1
-
-# Sitemaps
 Sitemap: https://surajguvaju.com.np/sitemap.xml

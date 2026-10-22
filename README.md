@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Suraj Guvaju — Engineering Portfolio
 
-## Getting Started
+Next.js 16 App Router portfolio using React 19, TypeScript, Tailwind CSS 4, Inter, and Lucide icons.
 
-First, run the development server:
+## Development and validation
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- `npm run dev` — local development
+- `npm run lint` — ESLint
+- `./node_modules/.bin/tsc --noEmit --incremental false` — TypeScript check
+- `npm run build` — production build
+- `npm run start` — serve a production build
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Content and architecture
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Identity lives in `src/content/site.ts`. Engineering projects, clients, and experience have typed records in `src/content/`. Static sections are Server Components; only mobile navigation uses a client boundary. Reusable UI lives in `src/components/ui/`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Tailwind resets and shared styles use explicit cascade layers. Tokens and responsive presentation live in `src/app/globals.css`.
 
-## Learn More
+## Publication rules
 
-To learn more about Next.js, take a look at the following resources:
+Canonical: https://surajguvaju.com.np. Contact: surajguvaju0@gmail.com.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Do not publish unsupported metrics or private repository links. Smart Bus is academic. GadiBazar is deployed with staging-named infrastructure; do not claim production maturity or completed monitoring. Team Bhariya's mobile release workflows are live.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Résumé download remains absent until an approved PDF exists. Case-study routes are outside Phase 3A. Use approved product imagery or text-led cards. Client screenshots, when available, are actual website views stored under `public/images/clients/`.
 
-## Deploy on Vercel
+SEO metadata and JSON-LD share `src/lib/seo.ts`. Sitemap lists only the homepage; Next metadata routes generate social images.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Screenshot provenance
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Desktop (1440×1000) and mobile (390×844) client screenshots were captured from the actual deployed Trailmaker Consultancy, NipponBashi, and Standard Interior websites on 2026-10-11. The homepage displays optimized desktop WebP images; mobile captures are retained for future presentation. No generated application imagery is used.
+
+## Deployment
+
+Actual hosting configuration is not established in this repository. Phase 3A is local-only, with no deployment, commit, or push.
