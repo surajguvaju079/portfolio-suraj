@@ -16,5 +16,5 @@ export function ghosttagAssociation() {
   if (!raw?.trim()) return [];
   const fingerprints = [...new Set(raw.split(",").map(value => value.trim().toUpperCase()))];
   if (!fingerprints.every(value => /^(?:[A-F0-9]{2}:){31}[A-F0-9]{2}$/.test(value))) throw new Error("Invalid Android certificate fingerprint configuration");
-  return [{ relation: ["delegate_permission/common.handle_all_urls"], target: { namespace: "android_app", package_name: "com.ghosttag", sha256_cert_fingerprints: fingerprints } }];
+  return [{ relation: ["delegate_permission/common.handle_all_urls", "delegate_permission/common.get_login_creds"], target: { namespace: "android_app", package_name: "com.ghosttag", sha256_cert_fingerprints: fingerprints } }];
 }
