@@ -12,9 +12,13 @@ export function ghosttagPlayUrl() {
   } catch { return null; }
 }
 export function ghosttagAssociation() {
-  const raw = process.env.GHOSTTAG_ANDROID_SHA256_CERT_FINGERPRINTS;
-  if (!raw?.trim()) return [];
-  const fingerprints = [...new Set(raw.split(",").map(value => value.trim().toUpperCase()))];
-  if (!fingerprints.every(value => /^(?:[A-F0-9]{2}:){31}[A-F0-9]{2}$/.test(value))) throw new Error("Invalid Android certificate fingerprint configuration");
-  return [{ relation: ["delegate_permission/common.handle_all_urls", "delegate_permission/common.get_login_creds"], target: { namespace: "android_app", package_name: "com.ghosttag", sha256_cert_fingerprints: fingerprints } }];
+  return [{
+    relation: ["delegate_permission/common.handle_all_urls", "delegate_permission/common.get_login_creds"], target: {
+      namespace: "android_app", package_name: "com.ghosttag", sha256_cert_fingerprints: ["7C:6E:B3:B4:17:04:48:B3:91:21:93:47:F5:C6:ED:CC:33:1D:85:41:26:22:AC:18:DC:82:C6:20:05:07:46:EB",
+        "B5:4A:4B:43:94:A5:8B:2E:72:55:F2:75:C8:51:6C:07:C9:FF:0A:74:A1:F5:36:17:93:31:33:C2:91:DB:04:23",
+        "19:30:B6:A2:36:2E:F6:15:08:FF:48:4E:9D:68:62:EE:91:22:71:E2:F2:43:DE:06:89:CD:E4:B3:25:A2:15:50",
+        "B3:2A:72:54:06:22:2B:AD:C9:8C:81:6C:4F:EC:4B:36:F3:AE:B1:9C:0C:E7:3D:7E:BE:27:75:F5:D7:49:89:B0"
+      ]
+    }
+  }];
 }
