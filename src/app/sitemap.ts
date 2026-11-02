@@ -70,5 +70,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "yearly",
       priority: 0.7,
     },
+    {
+      url: `${BASE_URL}/ghosttag/terms-of-service`,
+      lastModified: new Date("2026-11-02"),
+      changeFrequency: "yearly",
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/ghosttag/community-guidelines`,
+      lastModified: new Date("2026-11-02"),
+      changeFrequency: "yearly",
+      priority: 0.7,
+    },
   ];
 }

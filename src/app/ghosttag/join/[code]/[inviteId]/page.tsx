@@ -25,7 +25,7 @@ export default async function RoomInvite({ params }: { params: Promise<{ code: s
         <InviteActions code={code} inviteId={inviteId.toLowerCase()} playUrl={ghosttagPlayUrl()} />
       </div>
       <p className="mt-6 text-sm leading-7 text-gray-400">Opening this page does not join the room. Availability, age eligibility and room access are checked by the app. An expired invitation cannot open a different room if its short code is reused.</p>
-      <nav aria-label="GhostTag information" className="mt-8 flex flex-wrap gap-5 text-sm text-violet-300"><Link href="/ghosttag">About GhostTag</Link><Link href="/ghosttag/privacy-policy">Privacy</Link><Link href="/ghosttag/child-safety-standards">Safety</Link></nav>
+      <nav aria-label="GhostTag information" className="mt-8 flex flex-wrap gap-5 text-sm text-violet-300"><Link href="/ghosttag">About GhostTag</Link><Link href="/ghosttag/privacy-policy">Privacy</Link><Link href="/ghosttag/child-safety-standards">Safety</Link><Link href="/ghosttag/terms-of-service">Terms</Link><Link href="/ghosttag/community-guidelines">Guidelines</Link></nav>
     </div>
   </article>;
 }
