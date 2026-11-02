@@ -38,11 +38,18 @@ export default function GhostTagChildSafetyStandards() {
             minors or any exploitation of children.
           </p>
           <p className="mt-6 text-sm text-gray-400">
-            Last updated: October 22, 2026
+            Last updated: November 1, 2026
           </p>
         </header>
 
         <div className="glass-card space-y-10 text-base leading-8 text-gray-300">
+          <PolicySection title="Age eligibility, private conversations and invitations">
+            <p>GhostTag’s approved audience is adults aged 18 and over. Birthday declarations are processed transiently to calculate eligibility; the birthday is not stored or shown to other participants. The service retains the result, assessment method, time and policy version linked to its internal anonymous identity. This is declared screening, not proof of age.</p>
+            <p>The companionship feature pairs two eligible anonymous identities for an English text conversation lasting 15 minutes, with one mutual 15-minute extension. Private matched rooms have no shareable invites. Either person can end the conversation for both. Group rooms normally retain their 24-hour lifetime and support public invitation IDs that expire with the actual room.</p>
+            <p>Matching searches retain an identity reference, public search identifier, creation time, a two-minute deadline and a short availability lease. Expired searches are cleaned up; matched-session records are removed with room cleanup. Block and end stores the two internal identity references and creation time privately to exclude future matches. A block survives room expiry until the blocker clears it or its underlying identity is deleted. It does not filter group rooms or create a public profile. Resetting an identity can bypass blocks and declared screening.</p>
+            <p>Public social access and new matching remain disabled by default pending release readiness. Website invitation pages show only public invitation references, do not join rooms, and do not retrieve private conversation content. They offer an explicit app-opening action. No deferred-install or advertising tracking service is introduced.</p>
+          </PolicySection>
+
           <PolicySection title="1. Zero tolerance">
             <p>
               GhostTag has zero tolerance for child sexual abuse and
@@ -129,10 +136,7 @@ export default function GhostTagChildSafetyStandards() {
               time.
             </p>
             <p>
-              There is currently no participant blocking feature. Reporting is
-              not blocking, and leaving a room does not remove prior messages
-              or prevent another participant from appearing in a different
-              room.
+              Block and end prevents future matching between the same anonymous identities until the blocker clears the block. It does not filter group rooms. Reporting remains a separate action and does not itself block another person.
             </p>
           </PolicySection>
 

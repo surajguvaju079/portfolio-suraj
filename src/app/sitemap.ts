@@ -17,6 +17,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1.0,
     },
 
+    { url: `${BASE_URL}/ghosttag`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+
     // ── Anchor sections (treated as separate signals by some crawlers) ──────
     {
       url: `${BASE_URL}/#about`,
